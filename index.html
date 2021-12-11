@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buisness Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="right-side">
+      <div class="logo">
+        <h4>Tech<span>.</span></h4>
+      </div>
+    </div>
+    <div class="left-side">
+      <div class="menuToggle" onclick="toggleMenu();"></div>
+      <ul class="navigation">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About Us</a></li>
+        <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+        <li><a href="#pricing" onclick="toggleMenu();">Pricing</a></li>
+        <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <section class="home" id="home">
+    <div class="container">
+      <div class="right">
+        <h4>Empower Your Websites</h4>
+        <p>We help people build fully empowered and powerfull websites in any language. We provide backend and front-end
+          building</p>
+        <button class="btn">Learn More</button>
+      </div>
+      <div class="left">
+        <img src="back.jpg">
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h4> <span>A</span>bout us</h4>
+    <div class="container">
+      <div class="right">
+        <h4>About us</h4>
+        <p>We help people build fully empowered and powerfull websites in any language. We provide backend and front-end
+          building. Our company has a large number of employees and they are very hardworking. We have a developed
+          infrastructure of front-end and backend coding and we can make your website do more than in worth of price.
+          <br><br>
+
+          Our main complex is located in Nagpur. There are over 40 branches all over India. We have a great space for
+          our
+          employees and the salary is best out of all the buisness companies. We have our office time from 8:00 A.M to
+          9:00
+          P.M. If you have any queries regarding our services then contact us in between our office time.
+        </p>
+        <button class="btn">More Content</button>
+      </div>
+      <div class="left">
+        <img src="back2.jpg">
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <h4> <span>S</span>ervices</h4>
+    <div class="container">
+      <div class="displayer">
+        <img src="svg/service-2.svg">
+        <h4>Web Developent</h4>
+        <p>We have a great knowledge of front-end web designing like HTML, CSS, Javascript, Node.js and we give
+          customers the best services and powerfull
+          implications and fully functional websites</p>
+      </div>
+      <div class="displayer2">
+        <img src="svg/service-2.svg">
+        <h4>Backend Development</h4>
+        <p>We have a great knowledge of backend development environment like PHP, JS, Node.js and we give customers the
+          best services and powerfull
+          implications and fully functional websites</p>
+      </div>
+      <div class="displayer3">
+        <img src="svg/service-2.svg">
+        <h4>Photo Editing</h4>
+        <p>We have a great knowledge of photo editing softwares like Photoshop, Adobe Illustrations and we give
+          customers the best services and powerfull
+          implications and vector and svg images</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <h4> <span>P</span>ricing</h4>
+    <div class="container">
+      <div class="displayer-price">
+        <img src="svg/price-1.svg">
+        <p>Basic Website like portfolios, templates</p>
+        <p>Price starts from</p>
+        <h2>₹20,000</h2>
+      </div>
+      <div class="displayer-price">
+        <img src="svg/price-1.svg">
+        <p>E-commerce Website like store websites</p>
+        <p>Price starts from</p>
+        <h2>₹60,000</h2>
+      </div>
+      <div class="displayer-price">
+        <img src="svg/price-1.svg">
+        <p>Backend Integrated Website like PHP</p>
+        <p>Price starts from</p>
+        <h2>₹1,00,000</h2>
+      </div>
+    </div>
+  </section>
+</body>
+
+<section class="testimonials" id="testimonials">
+  <h4> <span>T</span>estimonials</h4>
+  <div class="container">
+    <div class="displayer-test">
+      <div class="name">
+        <img src="testi1.jpg" alt="">
+        <h4>Elsa Jordan</h4>
+      </div>
+      <p>- "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus ex voluptate officiis quod eius iure
+        voluptas hic ratione aut tempore expedita, velit dolorem vitae dolor. dolorum ullam!"</p>
+    </div>
+    <div class="displayer-test">
+      <div class="name">
+        <img src="testi2.jpeg" alt="">
+        <h4>Michael Harden</h4>
+      </div>
+      <p>- "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus ex voluptate officiis quod eius iure
+        voluptas hic ratione aut tempore expedita, velit dolorem vitae dolor. dolorum ullam!"</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h4> <span>C</span>ontact us</h4>
+  <form class="contact-form reveal" action="mailto:devapritamsharma@gmail.com" method="post" enctype="text/plain">
+    <h3>Send Message</h3>
+    <div class="input-box">
+      <input type="text" name="name" value="" placeholder="Name">
+    </div>
+    <div class="input-box">
+      <input type="text" name="mail" value="" placeholder="Email">
+    </div>
+    <div class="input-box">
+      <textarea name="comment" rows="8" cols="80" placeholder="Message"></textarea>
+    </div>
+    <div class="input-box">
+      <input type="submit" class="send-btn" name="" value="Send">
+    </div>
+  </form>
+</section>
+
+<footer class="footer">
+  <span class="footer-title">Devpritam Sharma</span>
+  <p>Copyright @2021 <a href="#">DevaGyan</a>. All Rights Reserved.</p>
+</footer>
+
+<script type="text/javascript">
+  window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".navbar");
+    navbar.classList.toggle('sticky', window.scrollY > 0);
+  });
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
